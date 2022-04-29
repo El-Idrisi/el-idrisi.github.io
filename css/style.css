@@ -1,0 +1,388 @@
+body {
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+nav .container .navbar-brand,
+nav.nav .logo {
+    font-family: "Pacifico", cursive;
+}
+
+nav.nav .logo {
+    font-size: 1.5rem;
+    border: 0;
+}
+
+.jumbotron {
+    background-color: #e2edff;
+}
+
+.about {
+    z-index: 100;
+    background-color: #e7e7e7;
+    opacity: 1;
+}
+
+footer.footer {
+    background-color: #191919;
+}
+
+.projects {
+    background-color: #cecece;
+}
+
+section.contact {
+    background-color: #e7e7e7;
+}
+
+section {
+    padding-top: 4.5rem;
+}
+
+footer p i {
+    animation: jreng 5s ease-in-out infinite forwards alternate;
+}
+
+nav.navbar {
+    transition: 0.3s;
+    background-color: #191919;
+}
+
+nav.active {
+    background-color: #7b8085;
+}
+
+#particles-js {
+    background-color: #191919;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.h1-1 {
+    font-size: 7rem;
+    margin-top: -70px;
+}
+
+.h1-2 {
+    font-size: 5.5rem;
+    margin-top: 85px;
+}
+
+nav .nav-link {
+    padding-left: 10px;
+    border-left: 1px solid white;
+}
+
+.hover h2:hover {
+    /* animation: jello 0.5s ease 0s 1 normal forwards; */
+    animation-name: rubberBand;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.hover h2 {
+    display: inline-block;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.b1,
+.navbar-expand-lg .navbar-nav .nav-link.b2,
+.navbar-expand-lg .navbar-nav .nav-link.b3,
+.navbar-expand-lg .navbar-nav .nav-link.b4 {
+    padding-right: 5.5rem;
+    padding-left: 4.5rem;
+    margin-right: 1rem;
+    border-right: 1px solid white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.b4 {
+    border-right: 0px solid white;
+}
+
+.navbar-brand.b-main {
+    border-right: 1px solid white;
+    padding-right: 100px;
+}
+
+.about .row .main {
+    font-weight: 600
+}
+
+h3,
+h5 {
+    font-weight: 600;
+}
+
+.modal-dialog img {
+    width: calc(80% + 1.5vw);
+}
+
+.modal-content {
+    width: 800px;
+}
+
+.html {
+    width: calc(1vw + 3.5rem);
+}
+
+.css {
+    width: calc(1vw + 2.2rem);
+}
+
+.js {
+    width: calc(1vw + 2.5rem);
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.bs {
+    width: calc(1vw + 3rem);
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.vscode {
+    width: calc(1vw + 3rem);
+}
+
+.filmora {
+    width: calc(1vw + 3.5rem);
+}
+
+.ai {
+    width: calc(1vw + 2.7rem);
+}
+
+.filmora-x {
+    width: calc(1vw + 2.7rem);
+}
+
+.-top-1{
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    margin-left: -.5rem;
+}
+.r-1 {
+    margin-right: 1rem;
+}
+
+/* .icon-html:hover .html,
+.icon-css:hover .css,
+.icon-js:hover .js,
+.icon-bs:hover .bs,
+.icon-vscode:hover .vscode,
+.icon-filmora:hover .filmora,
+.icon-ai:hover .ai {
+    animation: rotate .7s ease both;
+} */
+
+
+.bayang {
+    filter: drop-shadow(3.5px 3.5px 3px rgba(0, 0, 0, .3));
+}
+
+ul.nav {
+    width: 100px;
+    font-size: calc(2rem + 2vw);
+}
+
+
+
+.slide {
+    transform: translateX(-100%);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track:hover {
+    box-shadow: inset 0 0 5px gray;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 5px white;
+    background: #7b8085;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    box-shadow: inset 0 0 5px white;
+    background-color: #646769;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    .h1-1 {
+        font-size: 6.7rem;
+        margin-top: -90px;
+    }
+
+    .h1-2 {
+        font-size: 5.2rem;
+        margin-top: 120px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link.b1,
+    .navbar-expand-lg .navbar-nav .nav-link.b2,
+    .navbar-expand-lg .navbar-nav .nav-link.b3,
+    .navbar-expand-lg .navbar-nav .nav-link.b4 {
+        padding-right: 1rem;
+        padding-left: 1rem;
+        margin-right: 0rem;
+        border-left: 1px solid white;
+        border-right: 0px solid white;
+    }
+
+    .navbar-brand.b-main {
+        border-right: 0px solid white;
+        padding-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .h1-1 {
+        font-size: 6rem;
+        margin-top: -80px;
+    }
+
+    .h1-2 {
+        font-size: 4.5rem;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .h1-1 {
+        font-size: 5rem;
+        margin-top: -70px;
+    }
+
+    .h1-2 {
+        font-size: 3.5rem;
+        margin-top: 85px;
+    }
+
+    .about .row .tool {
+        margin-bottom: 15px;
+        margin-left: 80px;
+        background-color: #fae258;
+        border-radius: 5px;
+        padding: 0 0 0 0;
+        width: 250px;
+        text-align: center;
+    }
+
+    .about .row .icon-2 {
+        width: 40px;
+        margin-left: 0px;
+    }
+
+    .about .row .icon-3 {
+        width: 43px;
+        margin-left: 0;
+    }
+
+    .about .row .icon-4 {
+        width: 55px;
+    }
+
+    .about .row .cap {
+        display: inline;
+        font-size: 17px;
+        margin-left: 0px;
+    }
+}
+
+@keyframes jreng {
+    12.5% {
+        color: #dc3535;
+    }
+
+    25% {
+        color: #dcb035;
+    }
+
+    37.5% {
+        color: #d1dc35;
+    }
+
+    50% {
+        color: #35dc3d;
+    }
+
+    62.5% {
+        color: #35d6dc;
+    }
+
+    75% {
+        color: #3835dc;
+    }
+
+    87% {
+        color: #c035dc;
+    }
+
+    100% {
+        color: #dc35d4;
+    }
+}
+
+@keyframes rubberBand {
+    0% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+
+    30% {
+        -webkit-transform: scale3d(1.25, 0.75, 1);
+        transform: scale3d(1.25, 0.75, 1);
+    }
+
+    40% {
+        -webkit-transform: scale3d(0.75, 1.25, 1);
+        transform: scale3d(0.75, 1.25, 1);
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.15, 0.85, 1);
+        transform: scale3d(1.15, 0.85, 1);
+    }
+
+    65% {
+        -webkit-transform: scale3d(0.95, 1.05, 1);
+        transform: scale3d(0.95, 1.05, 1);
+    }
+
+    75% {
+        -webkit-transform: scale3d(1.05, 0.95, 1);
+        transform: scale3d(1.05, 0.95, 1);
+    }
+
+    to {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateY(0) scale(1);
+    }
+
+    to {
+        transform: rotateY(360deg) scale(1.1);
+    }
+}
