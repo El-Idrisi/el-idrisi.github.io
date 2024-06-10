@@ -1,71 +1,33 @@
-var prevScrollpos = window.pageYOffset;
+const imgHero = document.querySelector("img.img-hero");
+let i = 1;
+setInterval(() => {
+      i++;
+
+      if (i > 4) {
+            i = 1;
+      }
+      imgHero.src = `img/home/img-${i}.jpg`;
+      imgHero.classList.add("animation-fade");
+      setTimeout(() => {
+            imgHero.classList.remove("animation-fade");
+      }, 1000);
+}, 3000);
+
 window.onscroll = function () {
-    var currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-        document.getElementById("navbar").style.transform = "translateY(0)";
-    } else {
-        document.getElementById("navbar").style.transform = "translateY(-100%)";
-    }
-    prevScrollpos = currentScrollPos;
-}
+      const header = document.querySelector("header");
+      const fixedNav = header.offsetTop;
 
-var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-    return new bootstrap.Tooltip(tooltipTriggerEl)
-})
+      if (window.pageYOffset > fixedNav) {
+            header.classList.add("navbar-fixed");
+      } else {
+            header.classList.remove("navbar-fixed");
+      }
+};
 
-const home = document.getElementById('navHome')
-const about = document.getElementById('navAbout')
-const projects = document.getElementById('navProjects')
-const contact = document.getElementById('navContact')
+const hamburger = document.querySelector("#hamburger");
+const navMenu = document.querySelector("#nav-menu");
 
-home.addEventListener('click', function(){
-    home.classList.add('active')
-    about.classList.remove('active')
-    projects.classList.remove('active')
-    contact.classList.remove('active')
-})
-about.addEventListener('click', function(){
-    home.classList.remove('active')
-    about.classList.add('active')
-    projects.classList.remove('active')
-    contact.classList.remove('active')
-})
-projects.addEventListener('click', function(){
-    home.classList.remove('active')
-    about.classList.remove('active')
-    projects.classList.add('active')
-    contact.classList.remove('active')
-})
-contact.addEventListener('click', function(){
-    home.classList.remove('active')
-    about.classList.remove('active')
-    projects.classList.remove('active')
-    contact.classList.add('active')
-})
-
-const vid = document.querySelector('video')
-
-const modal = document.querySelector('div.vid')
-
-modal.addEventListener('click',function(e){
-    vid.pause()
-
-    console.log(e.target)
-})
-
-const silang = document.querySelector('button.tekan')
-const navBar = document.getElementById('navBar')
-
-silang.addEventListener('click', function(){
-    navBar.classList.toggle('slide')
-})
-
-navBar.addEventListener('click', function(e){
-    
-    if(e.target.getAttribute('id') == 'nbHome' || e.target.getAttribute('id') == 'nbAbout' || e.target.getAttribute('id') == 'nbProjects' || e.target.getAttribute('id') == 'nbContact'){
-        navBar.classList.toggle('slide')
-        
-    }
-})
-
+hamburger.addEventListener("click", function(){
+      hamburger.classList.toggle("hamburger-active");
+      navMenu.classList.toggle("translate-x-full");
+});
