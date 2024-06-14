@@ -43,6 +43,10 @@
       @apply w-0 border-transparent transition-all duration-300 group-hover:w-full group-hover:border-sky-500;
 }
 
+.img-about {
+      background-image: url(../img/about.jpg);
+}
+
 @keyframes fade {
       0% {
             opacity: 0
