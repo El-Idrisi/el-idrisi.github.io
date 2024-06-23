@@ -1,261 +1,367 @@
 <!DOCTYPE html>
 <html class="scroll-smooth">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Font Google ~Poppins~ -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Font Google ~Poppins~ -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Font Awesome -->
-    <script
-      src="https://kit.fontawesome.com/bd2b93a447.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Font Awesome -->
+  <!-- Font Google ~Poppins~ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet" />
+  <!-- Font Google ~Poppins~ -->
 
-    <link href="css/output.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/bd2b93a447.js" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
 
-    <title>Portofolio ~ El-Idrisi</title>
-  </head>
+  <link href="css/output.css" rel="stylesheet" />
 
-  <body class="font-poppins overflow-x-hidden">
-    <!-- Navbar -->
-    <header class="fixed w-full flex p-4">
-      <div class="container">
-        <div class="flex items-center justify-between lg:pl-24 lg:pr-32">
+  <title>Portofolio ~ El-Idrisi</title>
+</head>
 
-          <div class="px-4">
-            <a href="#home" class="text-xl font-bold transition-all duration-300 hover:text-slate-600 lg:text-2xl">El-Idrisi</a>
-          </div>
+<body class="font-poppins overflow-x-hidden">
+  <!-- Navbar -->
+  <header class="fixed w-full flex p-4">
+    <div class="container">
+      <div class="flex items-center justify-between lg:pl-24 lg:pr-32">
 
-          <div id="hamburger" class="px-4 cursor-pointer lg:hidden">
-              <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
-              <span class="hamburger-line transition duration-300 ease-in-out"></span>
-              <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
-          </div>
-
-          <nav id="nav-menu" class="px-10 absolute right-0 top-full bg-white rounded-lg shadow-lg py-2 translate-x-full transition-all duration-300 lg:static lg:bg-transparent lg:shadow-none lg:px-0 lg:translate-x-0">
-            <ul class="block items-center justify-center gap-8 lg:flex">
-
-              <li class="group my-2">
-                <a href="#home" class="menu-navbar group">Home
-                  <hr class="navbar-underline-menu">
-                </a>
-              </li>
-
-              <li class="group my-2">
-                <a href="#about" class="menu-navbar group">About
-                  <hr class="navbar-underline-menu">
-                </a>
-              </li>
-
-              <li class="group my-2">
-                <a href="#project" class="menu-navbar group">Project
-                  <hr class="navbar-underline-menu">
-                </a>
-              </li>
-
-              <li class="group my-2">
-                <a href="#contact" class="menu-navbar group">Contact
-                  <hr class="navbar-underline-menu">
-                </a>
-              </li>
-
-            </ul>
-          </nav>
+        <div class="px-4">
+          <a href="#home"
+            class="text-xl font-bold transition-all duration-300 hover:text-slate-600 lg:text-2xl">El-Idrisi</a>
         </div>
-      </div>
-    </header>
-    <!-- Navbar -->
 
-    <!-- Hero Section -->
-    <section
-      id="home"
-      class="py-24 bg-gradient-to-br from-sky-100 to-indigo-100 flex justify-center items-center"
-    >
-      <div class="container">
-        <div
-          class="grid grid-cols-1 gap-8 place-items-center lg:grid-cols-2 lg:px-28"
-        >
-          <div class="px-4">
-            <h1 class="text-3xl font-bold md:text-4xl">
-              Hello my name is Muhammad El-Idrisi.
-            </h1>
-            <p class="text-lg mt-4 mb-8 text-gray-400 md:text-xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatibus iusto dolor voluptas!. Lorem, ipsum dolor.
-            </p>
-            <div
-              class="flex items-center justify-center gap-4 flex-wrap md:justify-start"
-            >
-              <a
-                href="mailto:muhammad.3l.idrisi@gmail.com"
-                class="bg-indigo-500 text-slate-100 text-md font-medium p-4 rounded-md transition-all duration-300 w-full text-center hover:bg-indigo-600 md:w-fit"
-                >Contact Me!</a
-              >
-              <a
-                href="#about"
-                class="py-4 px-6 text-md group md:border-2 md:border-slate-900"
-                >See all
-                <i class="fa-solid fa-arrow-down group-hover:animate-bounce"></i
-              ></a>
-            </div>
+        <div id="hamburger" class="px-4 cursor-pointer lg:hidden">
+          <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
+          <span class="hamburger-line transition duration-300 ease-in-out"></span>
+          <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
+        </div>
+
+        <nav id="nav-menu"
+          class="px-10 absolute right-0 top-full bg-white rounded-lg shadow-lg py-2 translate-x-full transition-all duration-300 lg:static lg:bg-transparent lg:shadow-none lg:px-0 lg:translate-x-0">
+          <ul class="block items-center justify-center gap-8 lg:flex">
+
+            <li class="group my-2">
+              <a href="#home" class="menu-navbar group">Home
+                <hr class="navbar-underline-menu">
+              </a>
+            </li>
+
+            <li class="group my-2">
+              <a href="#about" class="menu-navbar group">About
+                <hr class="navbar-underline-menu">
+              </a>
+            </li>
+
+            <li class="group my-2">
+              <a href="#project" class="menu-navbar group">Project
+                <hr class="navbar-underline-menu">
+              </a>
+            </li>
+
+            <li class="group my-2">
+              <a href="#contact" class="menu-navbar group">Contact
+                <hr class="navbar-underline-menu">
+              </a>
+            </li>
+
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- Navbar -->
+
+  <!-- Hero Section -->
+  <section id="home" class="py-24 bg-gradient-to-br from-sky-100 to-indigo-100 flex justify-center items-center">
+    <div class="container">
+      <div class="grid grid-cols-1 gap-8 place-items-center lg:grid-cols-2 lg:px-28">
+        <div class="px-4">
+          <h1 class="text-3xl font-bold md:text-4xl">
+            Hello my name is Muhammad El-Idrisi.
+          </h1>
+          <p class="text-lg mt-4 mb-8 text-gray-400 md:text-xl">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus iusto dolor voluptas!. Lorem, ipsum dolor.
+          </p>
+          <div class="flex items-center justify-center gap-4 flex-wrap md:justify-start">
+            <a href="mailto:muhammad.3l.idrisi@gmail.com"
+              class="bg-indigo-500 text-slate-100 text-md font-medium p-4 rounded-md transition-all duration-300 w-full text-center hover:bg-indigo-600 md:w-fit">Contact
+              Me!</a>
+            <a href="#about" class="py-4 px-6 text-md group md:border-2 md:border-slate-900">See all
+              <i class="fa-solid fa-arrow-down group-hover:animate-bounce"></i></a>
           </div>
-          <div class="px-4">
-            <div class="bg-slate-800 pt-2 rounded-lg">
-              <div class="flex justify-end items-center px-2 pb-2 gap-2">
-                <div class="w-3 h-3 rounded-full bg-red-500"></div>
-                <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
-                <div class="w-3 h-3 rounded-full bg-green-500"></div>
-              </div>
-              <img
-                src="img/home/img-1.jpg"
-                alt="coding"
-                class="w-full img-hero"
-              />
+        </div>
+        <div class="px-4">
+          <div class="bg-slate-800 pt-2 rounded-lg">
+            <div class="flex justify-end items-center px-2 pb-2 gap-2">
+              <div class="w-3 h-3 rounded-full bg-red-500"></div>
+              <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div class="w-3 h-3 rounded-full bg-green-500"></div>
             </div>
+            <img src="img/home/img-1.jpg" alt="coding" class="w-full img-hero" />
           </div>
         </div>
       </div>
-    </section>
-    <!-- Hero Section -->
+    </div>
+  </section>
+  <!-- Hero Section -->
 
-    <!-- About Section -->
-    <section id="about" class="px-4 py-24">
-      <div class="container">
-        <div class="flex justify-center items-center flex-wrap gap-4 lg:gap-0 lg:px-12">
-          
-          <div class="w-full lg:w-1/2 lg:px-4">
-            <div class="bg-slate-200 rounded-md shadow-slate-500 shadow-lg">
-              <div class="flex justify-end p-2 gap-1">
-                <div class="w-4 h-4 bg-slate-300 rounded-full"></div>
-                <div class="w-4 h-4 bg-slate-400 rounded-full"></div>
-                <div class="w-4 h-4 bg-slate-500 rounded-full"></div>
-              </div>
-              <img src="img/about.jpg" alt="code" class="rounded-b-md">
+  <!-- About Section -->
+  <section id="about" class="px-4 py-24">
+    <div class="container">
+      <div class="flex justify-center items-center flex-wrap gap-4 lg:gap-0 lg:px-12">
+
+        <div class="w-full lg:w-1/2 lg:px-4">
+          <div class="bg-slate-200 rounded-md shadow-slate-500 shadow-lg">
+            <div class="flex justify-end p-2 gap-1">
+              <div class="w-4 h-4 bg-slate-300 rounded-full"></div>
+              <div class="w-4 h-4 bg-slate-400 rounded-full"></div>
+              <div class="w-4 h-4 bg-slate-500 rounded-full"></div>
             </div>
+            <img src="img/about.jpg" alt="code" class="rounded-b-md">
           </div>
-
-          <div class="w-full lg:w-1/2 lg:px-4">
-            <h4 class="text-xl font-semibold text-sky-500 tracking-[0.2em]">About · Me</h4>
-            <h2 class="text-2xl font-bold mt-4 lg:text-4xl">I am Muhammad El-Idrisi</h2>
-            <p class="text-lg my-6 text-justify text-gray-400 md:text-xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatibus iusto dolor voluptas!. Lorem, ipsum dolor.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quisquam iure repudiandae.
-            </p>
-            <div class="flex gap-2">
-              <a href="#" class="group border-2 border-slate-400 text-2xl px-2 py-1 rounded-full text-slate-400 transition-all duration-300 hover:text-black hover:border-black lg:text-3xl">
-                <i class="fa-brands fa-youtube"></i>
-              </a>
-              <a href="https://www.instagram.com/muhammadelidrisi/" class="group border-2 border-slate-400 text-2xl px-2 py-1 rounded-full text-slate-400 transition-all duration-300 hover:text-black hover:border-black lg:text-3xl">
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-              <a href="#" class="group border-2 border-slate-400 text-2xl px-2 py-1 rounded-full text-slate-400 transition-all duration-300 hover:text-black hover:border-black lg:text-3xl">
-                <i class="fa-brands fa-x-twitter"></i>
-              </a>
-              <a href="#" class="group border-2 border-slate-400 text-2xl px-2 py-1 rounded-full text-slate-400 transition-all duration-300 hover:text-black hover:border-black lg:text-3xl">
-                <i class="fa-brands fa-github"></i>
-              </a>
-              <a href="#" class="group border-2 border-slate-400 text-2xl px-2 py-1 rounded-full text-slate-400 transition-all duration-300 hover:text-black hover:border-black lg:text-3xl">
-                <i class="fa-brands fa-linkedin"></i>
-              </a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-    <!-- About Section -->
-
-
-    <!-- Project Section -->
-    <section id="project" class="px-4 py-24 bg-slate-100">
-      <div class="container">
-        <div class="flex flex-col justify-center items-center px-4">
-          <h4 class="text-xl font-semibold text-sky-500 tracking-[0.2em]">My · Portofolio</h4>
-          <h2 class="text-2xl font-bold mt-4 lg:text-4xl">New Project</h2>
-          <p class="text-lg my-6 text-center text-gray-400 lg:w-1/2 md:text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit modi sed facilis eos ab voluptatum? Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
         </div>
 
-        <div class="flex justify-center items-center px-4 flex-wrap gap-4">
-
-          <div class="w-full lg:w-1/3 bg-white rounded-lg">
-            <img src="img/project/p-1.png" alt="project 1" class="rounded-t-lg">
-            <div class="p-4">
-              <h3 class="font-bold text-xl">Dunia Laptop</h3>
-              <p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptatum. Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-            </div>
-            <div class="flex justify-end items-center gap-4 p-4">
-
-              <a href="#" class="text-md px-4 py-2 border-2 transition-all duration-300 border-slate-500 text-slate-500 hover:text-black hover:border-black lg:text-lg">Github <i class="fa-brands fa-github text-xl lg:text-2xl"></i></a>
-
-              <a href="#" class="bg-sky-500 text-white px-4 py-3 text-md rounded-md transition-all duration-300 hover:bg-sky-600 lg:text-lg">See More</a>
-
-            </div>
+        <div class="w-full lg:w-1/2 lg:px-4">
+          <h4 class="text-xl font-semibold text-sky-500 tracking-[0.2em]">About · Me</h4>
+          <h2 class="text-2xl font-bold mt-4 lg:text-4xl">I am Muhammad El-Idrisi</h2>
+          <p class="text-lg my-6 text-justify text-gray-400 md:text-xl">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus iusto dolor voluptas!. Lorem, ipsum dolor.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quisquam iure repudiandae.
+          </p>
+          <div class="flex gap-2">
+            <a href="#"
+              class="group border-2 border-slate-400 text-2xl px-2 py-1 rounded-full text-slate-400 transition-all duration-300 hover:text-black hover:border-black lg:text-3xl">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="https://www.instagram.com/muhammadelidrisi/"
+              class="group border-2 border-slate-400 text-2xl px-2 py-1 rounded-full text-slate-400 transition-all duration-300 hover:text-black hover:border-black lg:text-3xl">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#"
+              class="group border-2 border-slate-400 text-2xl px-2 py-1 rounded-full text-slate-400 transition-all duration-300 hover:text-black hover:border-black lg:text-3xl">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="#"
+              class="group border-2 border-slate-400 text-2xl px-2 py-1 rounded-full text-slate-400 transition-all duration-300 hover:text-black hover:border-black lg:text-3xl">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="#"
+              class="group border-2 border-slate-400 text-2xl px-2 py-1 rounded-full text-slate-400 transition-all duration-300 hover:text-black hover:border-black lg:text-3xl">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
           </div>
-
-          <div class="w-full lg:w-1/3 bg-white rounded-lg">
-            <img src="img/project/p-2.png" alt="project 1" class="rounded-t-lg">
-            <div class="p-4">
-              <h3 class="font-bold text-xl">Dunia Laptop</h3>
-              <p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptatum. Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-            </div>
-            <div class="flex justify-end items-center gap-4 p-4">
-
-              <a href="#" class="text-md px-4 py-2 border-2 transition-all duration-300 border-slate-500 text-slate-500 hover:text-black hover:border-black lg:text-lg">Github <i class="fa-brands fa-github text-xl lg:text-2xl"></i></a>
-
-              <a href="#" class="bg-sky-500 text-white px-4 py-3 text-md rounded-md transition-all duration-300 hover:bg-sky-600 lg:text-lg">See More</a>
-
-            </div>
-          </div>
-
-          <div class="w-full lg:w-1/3 bg-white rounded-lg">
-            <img src="img/project/p-3.png" alt="project 1" class="rounded-t-lg">
-            <div class="p-4">
-              <h3 class="font-bold text-xl">Dunia Laptop</h3>
-              <p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptatum. Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-            </div>
-            <div class="flex justify-end items-center gap-4 p-4">
-
-              <a href="#" class="text-md px-4 py-2 border-2 transition-all duration-300 border-slate-500 text-slate-500 hover:text-black hover:border-black lg:text-lg">Github <i class="fa-brands fa-github text-xl lg:text-2xl"></i></a>
-
-              <a href="#" class="bg-sky-500 text-white px-4 py-3 text-md rounded-md transition-all duration-300 hover:bg-sky-600 lg:text-lg">See More</a>
-
-            </div>
-          </div>
-
-          <div class="w-full lg:w-1/3 bg-white rounded-lg">
-            <img src="img/project/p-4.png" alt="project 1" class="rounded-t-lg">
-            <div class="p-4">
-              <h3 class="font-bold text-xl">Dunia Laptop</h3>
-              <p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptatum. Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-            </div>
-            <div class="flex justify-end items-center gap-4 p-4">
-
-              <a href="#" class="text-md px-4 py-2 border-2 transition-all duration-300 border-slate-500 text-slate-500 hover:text-black hover:border-black lg:text-lg">Github <i class="fa-brands fa-github text-xl lg:text-2xl"></i></a>
-
-              <a href="#" class="bg-sky-500 text-white px-4 py-3 text-md rounded-md transition-all duration-300 hover:bg-sky-600 lg:text-lg">See More</a>
-
-            </div>
-          </div>
-
-
         </div>
 
       </div>
-    </section>
-    <!-- Project Section -->
+    </div>
+  </section>
+  <!-- About Section -->
 
 
+  <!-- Project Section -->
+  <section id="project" class="px-4 py-24 bg-slate-100">
+    <div class="container">
+      <div class="flex flex-col justify-center items-center px-4">
+        <h4 class="text-xl font-semibold text-sky-500 tracking-[0.2em]">My · Portofolio</h4>
+        <h2 class="text-2xl font-bold mt-4 lg:text-4xl">New Project</h2>
+        <p class="text-lg my-6 text-center text-gray-400 lg:w-1/2 md:text-xl">Lorem, ipsum dolor sit amet consectetur
+          adipisicing elit. Fugit modi sed facilis eos ab voluptatum? Lorem ipsum dolor sit amet, Lorem ipsum dolor sit
+          amet, consectetur adipisicing.</p>
+      </div>
 
-    <script src="js/script.js"></script>
-  </body>
+      <div class="flex justify-center items-center px-4 flex-wrap gap-4">
+
+        <div class="w-full lg:w-1/3 bg-white rounded-lg">
+          <img src="img/project/p-1.png" alt="project 1" class="rounded-t-lg">
+          <div class="p-4">
+            <h3 class="font-bold text-xl">Dunia Laptop</h3>
+            <p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptatum. Lorem ipsum,
+              dolor sit amet consectetur adipisicing.</p>
+          </div>
+          <div class="flex justify-end items-center gap-4 p-4">
+
+            <a href="#"
+              class="text-md px-4 py-2 border-2 transition-all duration-300 border-slate-500 text-slate-500 hover:text-black hover:border-black lg:text-lg">Github
+              <i class="fa-brands fa-github text-xl lg:text-2xl"></i></a>
+
+            <a href="#"
+              class="bg-sky-500 text-white px-4 py-3 text-md rounded-md transition-all duration-300 hover:bg-sky-600 lg:text-lg">See
+              More</a>
+
+          </div>
+        </div>
+
+        <div class="w-full lg:w-1/3 bg-white rounded-lg">
+          <img src="img/project/p-2.png" alt="project 1" class="rounded-t-lg">
+          <div class="p-4">
+            <h3 class="font-bold text-xl">Dunia Laptop</h3>
+            <p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptatum. Lorem ipsum,
+              dolor sit amet consectetur adipisicing.</p>
+          </div>
+          <div class="flex justify-end items-center gap-4 p-4">
+
+            <a href="#"
+              class="text-md px-4 py-2 border-2 transition-all duration-300 border-slate-500 text-slate-500 hover:text-black hover:border-black lg:text-lg">Github
+              <i class="fa-brands fa-github text-xl lg:text-2xl"></i></a>
+
+            <a href="#"
+              class="bg-sky-500 text-white px-4 py-3 text-md rounded-md transition-all duration-300 hover:bg-sky-600 lg:text-lg">See
+              More</a>
+
+          </div>
+        </div>
+
+        <div class="w-full lg:w-1/3 bg-white rounded-lg">
+          <img src="img/project/p-3.png" alt="project 1" class="rounded-t-lg">
+          <div class="p-4">
+            <h3 class="font-bold text-xl">Dunia Laptop</h3>
+            <p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptatum. Lorem ipsum,
+              dolor sit amet consectetur adipisicing.</p>
+          </div>
+          <div class="flex justify-end items-center gap-4 p-4">
+
+            <a href="#"
+              class="text-md px-4 py-2 border-2 transition-all duration-300 border-slate-500 text-slate-500 hover:text-black hover:border-black lg:text-lg">Github
+              <i class="fa-brands fa-github text-xl lg:text-2xl"></i></a>
+
+            <a href="#"
+              class="bg-sky-500 text-white px-4 py-3 text-md rounded-md transition-all duration-300 hover:bg-sky-600 lg:text-lg">See
+              More</a>
+
+          </div>
+        </div>
+
+        <div class="w-full lg:w-1/3 bg-white rounded-lg">
+          <img src="img/project/p-4.png" alt="project 1" class="rounded-t-lg">
+          <div class="p-4">
+            <h3 class="font-bold text-xl">Dunia Laptop</h3>
+            <p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptatum. Lorem ipsum,
+              dolor sit amet consectetur adipisicing.</p>
+          </div>
+          <div class="flex justify-end items-center gap-4 p-4">
+
+            <a href="#"
+              class="text-md px-4 py-2 border-2 transition-all duration-300 border-slate-500 text-slate-500 hover:text-black hover:border-black lg:text-lg">Github
+              <i class="fa-brands fa-github text-xl lg:text-2xl"></i></a>
+
+            <a href="#"
+              class="bg-sky-500 text-white px-4 py-3 text-md rounded-md transition-all duration-300 hover:bg-sky-600 lg:text-lg">See
+              More</a>
+
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+  </section>
+  <!-- Project Section -->
+
+  <!-- Contact Section -->
+  <section id="contact" class="px-4 py-24">
+    <div class="container">
+      <div class="flex flex-col justify-center items-center px-4">
+        <h4 class="text-xl font-semibold text-sky-500 tracking-[0.2em]">My · Contact</h4>
+        <h2 class="text-2xl font-bold mt-4 lg:text-4xl">Get In Touch</h2>
+        <p class="text-lg my-6 text-center text-gray-400 lg:w-1/2 md:text-xl">Lorem, ipsum dolor sit amet consectetur
+          adipisicing elit. Fugit modi sed facilis eos ab voluptatum? Lorem ipsum dolor sit amet, Lorem ipsum dolor sit
+          amet, consectetur adipisicing.</p>
+      </div>
+
+      <div class="px-4">
+        <form action="mailto:muhammad.3l.idrisi@gmail.com" class="flex flex-col justify-center items-center gap-8">
+
+          <div class="px-4 w-full lg:w-1/2">
+            <label for="nama" class="ml-6">Full Name</label>
+            <div class="flex items-center gap-2 bg-sky-100 px-6 py-4 rounded-full mt-2">
+              <label for="nama"><ion-icon name="person-outline" class="text-xl"></ion-icon></label>
+              <input type="text" name="nama" id="nama" class="focus:outline-none bg-transparent w-full" placeholder="Full Name" autocomplete="off" required>
+            </div>
+          </div>
+
+          <div class="px-4 w-full lg:w-1/2">
+            <label for="email" class="ml-6">Email</label>
+            <div class="flex items-center gap-2 bg-sky-100 px-6 py-4 rounded-full mt-2">
+              <label for="email"><ion-icon name="mail-outline" class="text-xl"></ion-icon></label>
+              <input type="email" name="email" id="email" class="focus:outline-none bg-transparent w-full" placeholder="Email" autocomplete="off" required>
+            </div>
+          </div>
+
+          <div class="px-4 w-full lg:w-1/2">
+            <label for="no-hp" class="ml-6">No.Hp</label>
+            <div class="flex items-center gap-2 bg-sky-100 px-6 py-4 rounded-full mt-2">
+              <label for="no-hp"><ion-icon name="call-outline" class="text-xl"></ion-icon></label>
+              <input type="tel" name="no-hp" id="no-hp" class="focus:outline-none bg-transparent w-full" placeholder="No.Hp" autocomplete="off">
+            </div>
+          </div>
+
+          <div class="px-4 w-full lg:w-1/2">
+            <label for="pesan" class="ml-6">Message</label>
+            <div class="flex items-center gap-2 bg-sky-100 px-6 py-4 rounded-xl mt-2">
+              <textarea name="pesan" id="pesan" class="focus:outline-none bg-transparent w-full h-24" placeholder="Message" autocomplete="off" required></textarea>
+          </div>
+
+            <button type="submit" class="bg-sky-500 text-white w-full py-2 mt-8 font-bold rounded-full tracking-wider transition-all duration-300 hover:bg-sky-600">Submit</button>
+        </form>
+      </div>
+  </section>
+  <!-- Contact Section -->
+
+  <!-- Footer -->
+  <footer class="px-4 py-24 bg-sky-800 text-white">
+    <div class="container">
+      
+      <div class="flex flex-wrap justify-center items-center px-4 gap-8 lg:gap-0">
+        <div class="px-4 w-full lg:w-1/3">
+          <h3 class="text-3xl font-bold tracking-wider">El-Idrisi</h3>
+          <h4 class="text-xl font-medium mb-4">Contact Us</h4>
+          <p class="font-light"><i class="fa-solid fa-envelope mr-2"></i>muhammad.3l.idrisi@outlook.com</p>
+          <p class="font-light"><i class="fa-solid fa-phone mr-2"></i>+62 822-8988-2737</p>
+          <p class="font-light"><i class="fa-solid fa-location-dot mr-2"></i>Jl.Sekuntum Raya Perum OPV Block Orchid No.3, Delima, Kec.Tampan, Pekanbaru, Riau</p>
+        </div>
+
+        <div class="px-4 w-full lg:w-1/4">
+          <h3 class="text-3xl font-bold tracking-wider">Feature</h3>
+          <div class="flex flex-col gap-4 mt-4">
+            <a href="#home" class="transition-all duration-300 hover:text-sky-300">
+              Home
+            </a>
+            <a href="#about" class="transition-all duration-300 hover:text-sky-300">About</a>
+            <a href="#project" class="transition-all duration-300 hover:text-sky-300">Project</a>
+            <a href="#contact" class="transition-all duration-300 hover:text-sky-300">Contact</a>
+          </div>
+        </div>
+
+        <div class="px-4 w-full lg:w-1/4 ">
+          <h3 class="text-3xl font-bold tracking-wider">Social Media</h3>
+          <div class="flex flex-col mt-4 gap-2">
+            <a href="#" class="hover:text-sky-300 group"><i class="fa-brands fa-youtube mr-2 group-hover:text-white"></i> Muhammad El-idrisi</a>
+            <a href="#" class="hover:text-sky-300 group"><i class="fa-brands fa-github mr-2 group-hover:text-white"></i> El-Idrisi</a>
+            <a href="#" class="hover:text-sky-300 group"><i class="fa-brands fa-instagram mr-2 group-hover:text-white"></i>muhammadelidrisi</a>
+            <a href="#" class="hover:text-sky-300 group"><i class="fa-brands fa-x-twitter mr-2 group-hover:text-white"></i>El-Idrisi</a>
+            <a href="#" class="hover:text-sky-300 group"><i class="fa-brands fab fa-linkedin mr-2 group-hover:text-white"></i>Muhammad El-Idrisi</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="px-4 mt-2 flex flex-col justify-center items-center">
+      <hr class="w-full border border-t-white mt-8 lg:w-1/2">
+      <p class="text-center mt-2 ">Created by Muhammad El-Idrisi | &copy; 2024</p>
+    </div>
+  </footer>
+  <!-- Footer -->
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
 </html>
